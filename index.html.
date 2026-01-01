@@ -1,6 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Multovermine | Store</title>
+    <style>
+        /* CSS untuk mempercantik tampilan */
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+        header { background-color: #333; color: white; padding: 20px; }
+        .container { padding: 20px; display: flex; flex-wrap: wrap; justify-content: center; }
+        .card { background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 15px; padding: 20px; width: 250px; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: #333; }
+        .card p { color: #777; font-size: 14px; }
+        .price { font-weight: bold; color: #2ecc71; font-size: 18px; }
+        .btn { display: inline-block; background: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        .btn:hover { background: #2980b9; }
+        footer { background: #333; color: white; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
 <body>
-    <h1>Halo Dunia! Ini Web Pertama Saya.</h1>
+
+<header>
+    <h1>Sean Multovermine Store</h1>
+    <p>Penyedia Produk Digital Terpercaya</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h3>Produk Digital A</h3>
+        <p>Deskripsi singkat layanan atau produk digital Anda di sini.</p>
+        <p class="price">Rp 50.000</p>
+        <a href="https://wa.me/nomor-wa-anda" class="btn">Beli Sekarang</a>
+    </div>
+
+    <div class="card">
+        <h3>Produk Digital B</h3>
+        <p>Deskripsi singkat layanan atau produk digital Anda di sini.</p>
+        <p class="price">Rp 100.000</p>
+        <a href="https://wa.me/nomor-wa-anda" class="btn">Beli Sekarang</a>
+    </div>
+
+    <div class="card">
+        <h3>Produk Digital C</h3>
+        <p>Deskripsi singkat layanan atau produk digital Anda di sini.</p>
+        <p class="price">Rp 150.000</p>
+        <a href="https://wa.me/nomor-wa-anda" class="btn">Beli Sekarang</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sean Multovermine. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
